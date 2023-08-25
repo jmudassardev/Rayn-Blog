@@ -652,11 +652,18 @@ textarea {
 	margin-bottom: 0px;
 	display: inline-block;
   }
+  .featured-image-section h6:hover {
+    background-color: #74bc1f !important;
+}
+
   .featured-title {
 	font-size: 20px;
 	font-weight: 600;
 	padding-top: 10px;
   }
+  .featured-title a:hover {
+    color: #2b2a77;
+}
 .featured-para {
 	font-size: 14px;
 	font-weight: 400;
@@ -674,6 +681,10 @@ textarea {
   .featured-small-meta {
 	font-size: 13px;
 	color: #979095;
+  }
+  .wp-post-image img:hover{
+	-webkit-filter: grayscale(100%) blur(3px) !important;
+	filter: grayscale(100%) blur(3px) !important;
   }
 
 /* The popular section */
@@ -1113,6 +1124,9 @@ margin: 1.5em 0 0;
 	text-decoration: none;
 	font-size: 14px;
 }
+.footer-widget li a:hover {
+    color: #2b2a77;
+}
 .footer-widget p {
 	font-size: 14px;
 }
@@ -1375,3 +1389,83 @@ margin: 1.5em 0 0;
 	  transform: scale(.98)
 	}
   }
+
+  /** Newslettter Form **/
+  #two-column{
+	width: 550px;
+}
+#two-column #left{
+	width: 300px;
+	float: left;
+}
+#two-column #right{
+	width: 250px;
+	float: right;
+}
+#two-column p{
+	margin-bottom: 12px;
+}
+#two-column input[type="text"]{
+	border:none;
+	border:1px solid #000;
+	font-size :14px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 540px;
+	padding: 5px;
+}
+#two-column #right input[type="text"], #two-column #left input[type="text"]{
+	width:240px;
+}
+#two-column textarea {
+    position: relative;
+    padding: 5px;
+    border:1px solid #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 540px;
+}
+#two-column input[type="submit"]{
+	padding:8px 18px;
+	background:#222;
+	color:#fff;
+	border: 1px solid #fff;
+	float:right;
+	font-size: 14px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#two-column input[type="text"]:focus, #two-column textarea:focus{
+	background: #eee;
+}
+#two-column input[type="submit"]:hover{
+	background:#fff;
+	color:#222;
+	border: 1px solid #222;
+}
+/** Recent for the hovers and form**/
+.wpforms-container.inline-fields .wpforms-field-container {
+    display: block !important;
+}
+.wpforms-container.inline-fields .wpforms-submit-container {
+	padding-top: 5px !important;
+}
+.wpforms-container.inline-fields .wpforms-submit-container {
+    width: 35% !important;
+}
+.wpforms-container.inline-fields .wpforms-form {
+    display: -webkit-box !important;
+}
+div.wpforms-container-full .wpforms-form button[type=submit]{
+	background-color: #2b2a77 !important;
+	border:none !important;
+}
+.wpb-posts-nav a {
+    text-decoration: none !important;
+}
+.featured-imagesection h6:hover{
+	background:#74bc1f !important;
+}
