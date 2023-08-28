@@ -1,4 +1,17 @@
 <?php
+
+new \Kirki\Section(
+	'raynpress_section_color_scheme_general_bg',
+	[
+		'title'       => esc_html__( 'Dark Mode', 'raynpress' ),
+		'description' => esc_html__( '', 'raynpress' ),
+		'panel'       => 'switch_setting',
+		'priority'    => 160,
+	]
+); 
+
+
+
 new \Kirki\Section(
 	'raynpress_section_color_scheme_general',
 	[

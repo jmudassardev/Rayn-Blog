@@ -14,23 +14,25 @@
             <div class="row align-items-center">
                 <div class="col-md-5">
                     <h3 class="newsletterheading">
-                        Signup for Newsletter
+                        Signup for a Newsletter
                     </h3>
-                    <p class="newsletterpara">We’ll never share your email address with a third-party</p>
+                    <p class="newsletterpara">We will never share your email address with a third-party</p>
                 </div>
                 <div class="col-md-5">
-                    <div class="d-flex">
+                    <div class="">
                        <?php dynamic_sidebar('newsletter') ?>
 
                     </div>
                 </div>
                 <div class="col-md-2 d-none d-lg-block d-md-block">
-                    <div class="social-icons">
-                        <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
-                        <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
-                        <span><i class="fa fa-twitter" aria-hidden="true"></i></span>
-                        <span><i class="fa fa-pinterest" aria-hidden="true"></i></span>
-                    </div>
+                    
+                    <ul class="social-icons">
+						<li><a href="<?php echo get_theme_mod( 'facebok_url', '#' ); ?>" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+						<li><a href="<?php echo get_theme_mod( 'instagram_url', '#' ); ?>" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+						<li><a href="<?php echo get_theme_mod( 'twitter_url', '#' ); ?>" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+						<li><a href="<?php echo get_theme_mod( 'youtube_url', '#' ); ?>" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+					</ul>
+                    
                 </div>
             </div>
             <hr>

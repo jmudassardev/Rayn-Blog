@@ -1,7 +1,29 @@
 <?php
 /*
-* Color Scheme Controls 
+* Dark Scheme Controls 
 */
+new \Kirki\Field\Checkbox_Switch(
+	[
+		'settings'    => 'switch_setting',
+		'label'       => esc_html__( 'Dark Mode', 'raynpress' ),
+		'description' => esc_html__( 'Simple switch control', 'raynpress' ),
+		'section'     => 'raynpress_section_color_scheme_general_bg',
+		
+		'default'     => 'on',
+		'choices'     => [
+			'onnn'  => esc_html__( 'Enable', 'raynpress' ),
+			'offf' => esc_html__( 'Disable', 'raynpress' ),
+
+			'output' => array(
+				array(
+					'onnn'  => 'body',
+					'property' => 'background-color',
+				),
+			),
+		],
+
+	]
+);
 new \Kirki\Field\Color(
 	[
 		'settings'    => 'global_colors_body_bg',
@@ -26,7 +48,7 @@ new \Kirki\Field\Color(
 		'default'     => '#2e4c6e',
         'output' => array(
             array(
-                'element'  => '.featured-image-section h6',
+                'element'  => '.featured-image-section h6, .featured-imagesection h6',
                 'property' => 'background-color',
             ),
         ),

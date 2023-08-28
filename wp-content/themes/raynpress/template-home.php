@@ -205,7 +205,7 @@ get_header();
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
                 <h3 class="politicsheading">
-                    Popular
+                    Economy
                 </h3>
 				<hr>
                 <p class="politicsviewall m-0">

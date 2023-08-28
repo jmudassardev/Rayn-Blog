@@ -1,5 +1,14 @@
 <?php
 new \Kirki\Panel(
+	'switch_setting',
+	[
+		'priority'    => 10,
+		'title'       => esc_html__( 'Dark Mode Settings', 'raynpress' ),
+		'description' => esc_html__( '', 'raynpress' ),
+	]
+);
+
+new \Kirki\Panel(
 	'raynpress_header',
 	[
 		'priority'    => 10,

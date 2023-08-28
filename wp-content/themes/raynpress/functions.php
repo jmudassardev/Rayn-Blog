@@ -180,7 +180,7 @@ function raynpress_widgets_init() {
 	);
 	register_sidebar(
 		array(
-			'name'          => esc_html__( 'Newsletterr Widget', 'raynpress' ),
+			'name'          => esc_html__( 'newsletter Widget', 'raynpress' ),
 			'id'            => 'newsletter',
 			'description'   => esc_html__( 'Add widgets here.', 'raynpress' ),
 			'before_widget' => '<section id="%1$s" class="footer-widget %2$s">',
